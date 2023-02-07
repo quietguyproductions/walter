@@ -1,10 +1,4 @@
 """
-a) Write a natural language description of the code block in scope as a docstring block comment.
-b) The description in step a) should contain a numbered list 1), ..., n) of implementation steps, followed by syntactically correct code snippets.
-c) For each numbered item in part b) create a nested scoped code block using class stubs and method stubs connected by functions calling methods.
-d) Repeat steps a) through c) to refactor every item in step c) until every subroutine performs its task in less than 20 lines of code.
-e) Using the specified imports, write type annotations and descriptive docstrings for every code block.
-
 1) Initialize
 2) Generate an index of tuples with ({language}, {country}, {topic})
 3) Generate a dictionary with topics as keys and {sources} as user provided values
